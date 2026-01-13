@@ -4,18 +4,11 @@
 Build a production-style enterprise network in a virtual lab using Windows Server and Linux
 
 **Technologies Used**
-VMware Workstation
-Windows Server 2022
-Active Directory Domain Services
-DNS + DHCP
-Group Policy
-Ubuntu Server (Kerberos + SSSD)
-NTFS / SMB file sharing
-Windows Backup
-Event Viewer + Audit logging
+VMware Workstation, Windows Server 2022, Active Directory Domain Services, DNS, DHCP, Group Policy, Ubuntu Server (Kerberos + SSSD), NTFS/SMB file sharing, Windows Backup, Event Viewer, Audit logging
+
 
 **Architecture**
-![Architecture Diagram](Architecture diagram_Entreprise IT Lab.png)
+![Architecture Diagram](Architecture%20diagram_Entreprise%20IT%20Lab.png)
 
 **Features Implemented**
 Domain Controller deployment
@@ -28,7 +21,7 @@ Ubuntu AD integration
 Security logging & auditing
 Backup + restore validation
 
-**Challenge 1 — VM Networking Not Working**
+### 🔧 Challenge 1 — VM Networking Not Working
 S — Situation
 I deployed multiple VMs (Windows Server, Windows 10, Ubuntu), but they couldn’t communicate or access the internet.
 T — Task
@@ -51,5 +44,12 @@ A — Action
 •	Restarted SSSD and network services
 R — Result
 Both the Windows client and Ubuntu successfully joined the domain and authenticated users.
+
+---
+
+### 🎯 Project Outcome
+This project helped me understand how enterprise systems integrate—Active Directory, file security, identity management, networking, logging, and Linux–Windows authentication.
+
+It also strengthened my troubleshooting skills across DNS, network routing, and authentication services.
 
 

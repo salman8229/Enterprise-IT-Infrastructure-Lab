@@ -1,2 +1,21 @@
 # Enterprise-IT-Infrastructure-Lab
-Hands-on home lab simulating a real corporate IT environment — domain controller setup, group policies, role-based permissions, Linux AD integration, network services, and monitoring.
+
+**Objective:**
+Build a production-style enterprise network in a virtual lab using Windows Server and Linux
+
+**Technologies Used**
+VMware Workstation
+Windows Server 2022
+Active Directory Domain Services
+DNS + DHCP
+Group Policy
+Ubuntu Server (Kerberos + SSSD)
+NTFS / SMB file sharing
+Windows Backup
+Event Viewer + Audit logging
+
+**Architecture**
+
+
+
+
